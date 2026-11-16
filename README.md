@@ -284,7 +284,7 @@ Customer project history
 💻 Installation
 Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/khanya-led-platform.git
+git clone https://github.com/CyberSindz/khanya-led-platform.git
 Navigate into the project:
 
 cd khanya-led-platform
