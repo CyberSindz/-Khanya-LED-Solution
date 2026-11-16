@@ -1,6 +1,5 @@
 💡 Khanya LED Solution - Lighting Studio Platform
 
-<img width="123" height="2268" alt="image" src="https://github.com/user-attachments/assets/69791eb1-5c2b-410e-b981-6412f65f2433" />
 
 Lighting Beyond The Ordinary
 A modern lighting commerce and quotation platform designed to help customers discover, purchase, and install lighting solutions for residential and commercial spaces.
