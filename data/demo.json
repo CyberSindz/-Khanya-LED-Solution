@@ -1,0 +1,168 @@
+{
+ "orders": [
+  {
+   "name": "Thabo Mokoena",
+   "email": "thabo@example.co.za",
+   "phone": "082 555 0123",
+   "address": "12 Rivonia Rd, Sandton",
+   "notes": "Install after 6pm",
+   "items": [
+    {
+     "id": 4,
+     "name": "Club RGBW Wash Bar 24x3W",
+     "qty": 10
+    }
+   ],
+   "total": 31532,
+   "created": "2026-11-12 09:14"
+  },
+  {
+   "name": "Priya Naidoo",
+   "email": "priya@example.co.za",
+   "phone": "083 555 0145",
+   "address": "4 Main St, Midrand",
+   "notes": "",
+   "items": [
+    {
+     "id": 11,
+     "name": "High Bay UFO 150W",
+     "qty": 12
+    }
+   ],
+   "total": 15480,
+   "created": "2026-11-13 11:02"
+  },
+  {
+   "name": "Johan van Wyk",
+   "email": "johan@example.co.za",
+   "phone": "071 555 0188",
+   "address": "88 Lyttelton Rd, Centurion",
+   "notes": "Call before delivery",
+   "items": [
+    {
+     "id": 1,
+     "name": "SlimLine LED Panel 600x600 40W",
+     "qty": 30
+    }
+   ],
+   "total": 11670,
+   "created": "2026-11-14 14:40"
+  },
+  {
+   "name": "Lerato Dlamini",
+   "email": "lerato@example.co.za",
+   "phone": "064 555 0102",
+   "address": "21 Jan Smuts Ave, Johannesburg",
+   "notes": "",
+   "items": [
+    {
+     "id": 5,
+     "name": "Gold Trim GU10 Spotlight 7W",
+     "qty": 16
+    }
+   ],
+   "total": 1264,
+   "created": "2026-11-15 08:25"
+  },
+  {
+   "name": "Sipho Khumalo",
+   "email": "sipho@example.co.za",
+   "phone": "079 555 0177",
+   "address": "7 Church St, Pretoria",
+   "notes": "Gate code 4421",
+   "items": [
+    {
+     "id": 8,
+     "name": "Solar Floodlight 200W Remote",
+     "qty": 4
+    }
+   ],
+   "total": 3596,
+   "created": "2026-11-15 16:55"
+  }
+ ],
+ "quotes": [
+  {
+   "name": "Thabo Mokoena",
+   "email": "thabo@example.co.za",
+   "phone": "082 555 0123",
+   "space": "Club",
+   "size": 200,
+   "mood": "Party Atmosphere",
+   "location": "Sandton",
+   "install": 1,
+   "estimate": 37605,
+   "details": [],
+   "created": "2026-11-12 09:30"
+  },
+  {
+   "name": "Nomsa Zulu",
+   "email": "nomsa@example.co.za",
+   "phone": "082 555 0199",
+   "space": "Store",
+   "size": 90,
+   "mood": "Luxury",
+   "location": "Pretoria",
+   "install": 1,
+   "estimate": 18240,
+   "details": [],
+   "created": "2026-11-14 10:12"
+  },
+  {
+   "name": "Ahmed Patel",
+   "email": "ahmed@example.co.za",
+   "phone": "084 555 0166",
+   "space": "Warehouse",
+   "size": 600,
+   "mood": "Bright & Clean",
+   "location": "Midrand",
+   "install": 1,
+   "estimate": 52310,
+   "details": [],
+   "created": "2026-11-15 13:05"
+  },
+  {
+   "name": "Chloe Smith",
+   "email": "chloe@example.co.za",
+   "phone": "073 555 0121",
+   "space": "Home",
+   "size": 120,
+   "mood": "Warm & Cozy",
+   "location": "Durban",
+   "install": 0,
+   "estimate": 9870,
+   "details": [],
+   "created": "2026-11-16 07:48"
+  }
+ ],
+ "leads": [
+  {
+   "name": "Priya N",
+   "email": "priya@example.co.za",
+   "phone": "",
+   "message": "[Query] Do you supply dimmable panels for offices?",
+   "created": "2026-11-13 12:00"
+  },
+  {
+   "name": "Kagiso Mahlangu",
+   "email": "kagiso@example.co.za",
+   "phone": "081 555 0133",
+   "message": "Looking for a quote on 40 floodlights for a school field.",
+   "created": "2026-11-14 09:20"
+  },
+  {
+   "name": "Megan Botha",
+   "email": "megan@example.co.za",
+   "phone": "",
+   "message": "[Query] How long does delivery to Cape Town take?",
+   "created": "2026-11-15 15:31"
+  },
+  {
+   "name": "Bongani Sithole",
+   "email": "bongani@example.co.za",
+   "phone": "072 555 0150",
+   "message": "Can you install RGB strips at my restaurant this weekend?",
+   "created": "2026-11-16 08:10"
+  }
+ ]
+}

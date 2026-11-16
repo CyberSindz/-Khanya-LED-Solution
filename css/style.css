@@ -1,0 +1,65 @@
+/* ===== DESIGN TOKENS: light, vibrant theme. Change colours here ===== */
+:root{--gold:#c9a227;--accent:#ff5a1f;--violet:#6c4dff;--pink:#ff2d87;--cyan:#00b8ff;--ink:#16141f;--bg:#fff;--soft:#f6f4ff;--line:#e8e5f2;--mute:#5f5b70;--r:16px}
+*{box-sizing:border-box}
+body{margin:0;font-family:Montserrat,system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:3px solid var(--violet);outline-offset:2px}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#000;color:#fff;padding:8px;z-index:99}
+h1,h2,h3{line-height:1.15;margin:0 0 .5em;font-weight:800}
+h1{font-size:clamp(2.2rem,5.5vw,4rem)}h2{font-size:clamp(1.5rem,3vw,2.1rem)}
+/* promo bar + header */
+.promo{background:linear-gradient(90deg,var(--violet),var(--pink),var(--accent));color:#fff;text-align:center;font-size:.82rem;font-weight:600;padding:7px 10px}
+.top{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;align-items:center;gap:12px 22px;padding:10px 5%;background:#fff;border-bottom:1px solid var(--line)}
+.brand img{height:84px;display:block}  /* logo size: change height here */
+.hsearch{flex:1;min-width:240px;display:flex;gap:8px}.hsearch input{border-radius:99px}
+.cartlink{background:var(--ink);color:#fff;padding:10px 18px;border-radius:99px;font-weight:700;font-size:.9rem}
+.cartlink b{background:var(--accent);border-radius:99px;padding:1px 9px;margin-left:6px}
+.top nav{flex-basis:100%;display:flex;gap:26px;flex-wrap:wrap;font-weight:600;font-size:.92rem;border-top:1px solid var(--line);padding-top:8px}
+.top nav a:hover,.top nav a.on{color:var(--violet)}
+/* layout */
+main{min-height:70vh;outline:none}.wrap{max-width:1200px;margin:auto;padding:48px 5%}
+.grid{display:grid;gap:22px;grid-template-columns:repeat(auto-fill,minmax(235px,1fr))}.muted{color:var(--mute)}
+.split{display:grid;gap:32px;grid-template-columns:1fr 1fr;align-items:center}
+/* hero */
+.hero{background:linear-gradient(135deg,#fff3d6 0,#ffe0ef 45%,#e3deff 100%)}
+.hero .split{padding:56px 5%;max-width:1200px;margin:auto}
+.hero p{color:var(--mute);max-width:520px}
+.hero .logo-card{background:#fff;border-radius:28px;padding:18px;box-shadow:0 24px 60px rgba(108,77,255,.25)}
+.hero .logo-card img{width:100%;display:block;border-radius:18px}
+.grad{background:linear-gradient(90deg,var(--violet),var(--pink),var(--accent));-webkit-background-clip:text;background-clip:text;color:transparent}
+/* trust strip */
+.trust{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));max-width:1200px;margin:auto;padding:22px 5%}
+.trust div{background:var(--soft);border-radius:var(--r);padding:14px 16px;font-size:.88rem}.trust b{display:block}
+/* buttons */
+.btn{display:inline-block;padding:12px 24px;border-radius:99px;border:2px solid var(--ink);background:#fff;color:var(--ink);font:700 .92rem Montserrat,system-ui,sans-serif;cursor:pointer;margin:4px 4px 4px 0}
+.btn.fill{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn:hover{transform:translateY(-1px);box-shadow:0 8px 18px rgba(0,0,0,.15)}.btn:disabled{opacity:.4}.btn.sm{padding:8px 16px;font-size:.82rem}
+/* category tiles + product cards */
+.tile{border-radius:var(--r);padding:26px 20px;color:#fff;font-weight:800;background:linear-gradient(135deg,hsl(var(--h) 90% 55%),hsl(calc(var(--h) + 40) 90% 60%));min-height:120px}
+.tile small{display:block;font-weight:500;opacity:.9}.tile:hover{transform:translateY(-3px)}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:16px;box-shadow:0 2px 10px rgba(22,20,31,.05)}
+.card:hover{box-shadow:0 14px 34px rgba(108,77,255,.16)}
+.thumb{height:170px;border-radius:12px;margin-bottom:12px;display:grid;place-items:center;background:linear-gradient(135deg,hsl(var(--h,260) 90% 62%),hsl(calc(var(--h,260) + 50) 95% 68%))}
+.price{font-size:1.25rem;font-weight:800}.tag{font-size:.75rem;color:var(--mute);font-weight:600}
+.stock{font-size:.75rem;color:#0a8f4d;font-weight:700}
+.banner{background:linear-gradient(120deg,var(--violet),var(--pink));color:#fff;border-radius:28px;padding:44px 6%;display:grid;gap:12px}.banner p{margin:0;opacity:.95}
+.quote{font-style:italic;margin:0}
+details{border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:10px;background:#fff}summary{cursor:pointer;font-weight:700}
+/* forms */
+label{display:block;font-size:.85rem;font-weight:600;margin:14px 0 4px;color:var(--mute)}
+input,select,textarea{width:100%;padding:12px 16px;border-radius:12px;border:1.5px solid var(--line);background:#fff;color:var(--ink);font:inherit}
+input:focus,select:focus,textarea:focus{border-color:var(--violet)}
+.filters{display:grid;gap:12px;grid-template-columns:2fr 1fr 1fr;margin-bottom:24px}
+/* studio wizard */
+.steps{display:flex;gap:6px;margin-bottom:24px}.steps i{flex:1;height:6px;background:var(--line);border-radius:6px}.steps i.on{background:linear-gradient(90deg,var(--violet),var(--pink))}
+.opts{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));margin-bottom:12px}
+.opt{padding:20px;border:2px solid var(--line);border-radius:var(--r);background:#fff;color:var(--ink);font:700 1rem Montserrat,system-ui,sans-serif;cursor:pointer}
+.opt:hover{border-color:var(--violet)}.opt[aria-pressed=true]{border-color:var(--violet);background:var(--soft)}
+table{width:100%;border-collapse:collapse}td,th{padding:10px;border-bottom:1px solid var(--line);text-align:left;font-size:.9rem}
+.total{font-size:1.6rem;font-weight:800;color:var(--violet)}
+.msg{padding:14px;border-radius:12px;background:#e7f8ee;border:1px solid #9fdcb7;margin:14px 0}.msg.err{background:#ffe9ee;border-color:#f3a3b5}
+footer{background:var(--ink);color:#cfcbe0;padding:36px 5%;text-align:center;font-size:.88rem}footer a{text-decoration:underline}
+@media(max-width:760px){.split,.filters{grid-template-columns:1fr}.brand img{height:68px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+.btn,.card,.tile{transition:transform .15s,box-shadow .15s}
+table{margin-bottom:8px}.wrap h3{margin-top:1.6em}

@@ -1,0 +1,207 @@
+[
+ {
+  "id": 1,
+  "name": "SlimLine LED Panel 600x600 40W",
+  "cat": "LED Panels",
+  "price": 389,
+  "cov": 4,
+  "spaces": [
+   "Office",
+   "Store",
+   "Mall",
+   "Home",
+   "Club"
+  ],
+  "moods": [
+   "Bright & Clean",
+   "Modern",
+   "Party Atmosphere"
+  ],
+  "desc": "Edge-lit 4000K panel, 4000 lumens, flicker-free. Fits standard ceiling grids."
+ },
+ {
+  "id": 2,
+  "name": "Ultra-Thin Round Panel 18W Warm",
+  "cat": "LED Panels",
+  "price": 119,
+  "cov": 2.5,
+  "spaces": [
+   "Home",
+   "Office"
+  ],
+  "moods": [
+   "Warm & Cozy",
+   "Modern"
+  ],
+  "desc": "3000K recessed round panel, 90mm cut-out, dimmable."
+ },
+ {
+  "id": 3,
+  "name": "RGB LED Strip 5m Kit with Controller",
+  "cat": "RGB Lighting",
+  "price": 549,
+  "cov": 6,
+  "spaces": [
+   "Club",
+   "Home",
+   "Store"
+  ],
+  "moods": [
+   "Party Atmosphere",
+   "Modern",
+   "Luxury"
+  ],
+  "desc": "16 million colours, remote and app control, 12V adhesive strip."
+ },
+ {
+  "id": 4,
+  "name": "Club RGBW Wash Bar 24x3W",
+  "cat": "RGB Lighting",
+  "price": 2450,
+  "cov": 20,
+  "spaces": [
+   "Club"
+  ],
+  "moods": [
+   "Party Atmosphere"
+  ],
+  "desc": "DMX-ready wash bar for dance floors and stages."
+ },
+ {
+  "id": 5,
+  "name": "Gold Trim GU10 Spotlight 7W",
+  "cat": "Spotlights",
+  "price": 79,
+  "cov": 2,
+  "spaces": [
+   "Home",
+   "Store",
+   "Mall",
+   "Club"
+  ],
+  "moods": [
+   "Luxury",
+   "Warm & Cozy",
+   "Party Atmosphere"
+  ],
+  "desc": "Warm white 2700K spot with a gold bezel, 38 degree beam."
+ },
+ {
+  "id": 6,
+  "name": "Adjustable Track Spot 30W COB",
+  "cat": "Spotlights",
+  "price": 495,
+  "cov": 6,
+  "spaces": [
+   "Store",
+   "Mall",
+   "Office"
+  ],
+  "moods": [
+   "Luxury",
+   "Modern",
+   "Bright & Clean"
+  ],
+  "desc": "High CRI 90+ for displays, rotates and tilts on a track."
+ },
+ {
+  "id": 7,
+  "name": "IP65 LED Floodlight 100W",
+  "cat": "Floodlights",
+  "price": 629,
+  "cov": 25,
+  "spaces": [
+   "Warehouse",
+   "Mall",
+   "Store"
+  ],
+  "moods": [
+   "Bright & Clean"
+  ],
+  "desc": "Weatherproof 6500K flood, 10 000 lumens, aluminium body."
+ },
+ {
+  "id": 8,
+  "name": "Solar Floodlight 200W Remote",
+  "cat": "Floodlights",
+  "price": 899,
+  "cov": 30,
+  "spaces": [
+   "Home",
+   "Warehouse"
+  ],
+  "moods": [
+   "Bright & Clean"
+  ],
+  "desc": "Stores power by day, runs through load shedding."
+ },
+ {
+  "id": 9,
+  "name": "Crystal Halo Ceiling Light 36W",
+  "cat": "Ceiling Lights",
+  "price": 1190,
+  "cov": 14,
+  "spaces": [
+   "Home",
+   "Store",
+   "Mall"
+  ],
+  "moods": [
+   "Luxury",
+   "Warm & Cozy"
+  ],
+  "desc": "Tri-colour dimmable ceiling fitting with a polished gold ring."
+ },
+ {
+  "id": 10,
+  "name": "Garden Bollard Light 10W",
+  "cat": "Outdoor Lighting",
+  "price": 349,
+  "cov": 8,
+  "spaces": [
+   "Home",
+   "Mall",
+   "Office"
+  ],
+  "moods": [
+   "Warm & Cozy",
+   "Luxury",
+   "Modern"
+  ],
+  "desc": "IP65 stainless steel path light, warm white."
+ },
+ {
+  "id": 11,
+  "name": "High Bay UFO 150W",
+  "cat": "Commercial Lighting",
+  "price": 1290,
+  "cov": 40,
+  "spaces": [
+   "Warehouse",
+   "Mall"
+  ],
+  "moods": [
+   "Bright & Clean"
+  ],
+  "desc": "150 lm/W high bay for ceilings from 6 to 12 metres."
+ },
+ {
+  "id": 12,
+  "name": "Emergency LED Bulkhead 8W",
+  "cat": "Commercial Lighting",
+  "price": 259,
+  "cov": 30,
+  "spaces": [
+   "Office",
+   "Warehouse",
+   "Mall",
+   "Club",
+   "Store"
+  ],
+  "moods": [
+   "Bright & Clean",
+   "Modern"
+  ],
+  "desc": "3 hour battery backup. Helps meet fire safety requirements."
+ }
+]
